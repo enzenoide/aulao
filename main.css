@@ -1,0 +1,12 @@
+/*SELETOR(SELECIONAR PARA FORMATAR)*/
+body{background-color: rgb(233, 165, 64);
+font-size: 2em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1{
+text-align: center;
+}
+ul{
+    list-style-type: square;
+}

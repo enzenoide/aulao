@@ -1,12 +1,45 @@
-/*SELETOR(SELECIONAR PARA FORMATAR)*/
-body{background-color: rgb(233, 165, 64);
-font-size: 2em;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body{
+    font-family: garamond;
+    background-color: #f58e26a9;
+}
+header{
+    text-align: center;
+}
+figure{
+    text-align: center;
+}
+figure img{
+    border-bottom: 3px solid #F58D26;
+    border-top: 3px solid #F58D26;
+}
+section{
+    padding: 1em;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+hr{
+    border-top: 1px solid #F58D26;
+}
+footer address{
+    margin-top: 2em;
+    background-color: white;
+    padding: 5em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    max-width: 800px; 
+}
 
-}
-h1{
-text-align: center;
-}
-ul{
-    list-style-type: square;
+ul li img {
+    width: 100%; 
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
 }
